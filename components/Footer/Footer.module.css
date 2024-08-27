@@ -1,0 +1,64 @@
+.footer {
+  background-color: black;
+  color: white;
+  bottom: 0;
+  position: relative;
+  width: 100%;
+  margin-top: 10px;
+}
+.footerTop {
+  display: flex;
+  flex-direction: row;
+  padding-top: 40px;
+}
+.companyLogo {
+  padding: 0;
+}
+.footerLeft {
+  display: inline;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  text-align: left;
+  padding-left: 65px;
+  padding-bottom: 15px;
+  padding-right: 200px;
+}
+.footerLeft p {
+  width: 100px;
+}
+.quickAccess {
+  padding-right: 314px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.quickAccess li {
+  padding: 10px;
+}
+.footerMiddle {
+  padding-left: 370px;
+  padding-top: 5px;
+}
+.footerMiddle ul {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.secureLogo {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  padding-top: 15px;
+}
+.footerLine {
+  opacity: 50%;
+  background-color: white;
+  height: 1px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.copyRight {
+  text-align: center;
+}

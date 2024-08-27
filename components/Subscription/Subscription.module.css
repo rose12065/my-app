@@ -1,0 +1,156 @@
+.subscription {
+    display: flex;
+  flex-direction: row;
+  position: absolute;
+  width: 100%;
+  padding-left: 60px;
+}
+
+.subscribeContent {
+   padding-top: 10px;
+   padding-bottom: 10px;
+   padding-left: 20px;
+   padding-right: 20px;
+}
+
+.subscribeOffer {
+    font-size: 34px;
+    font-weight: 400;
+    line-height: 51px;
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+#name,
+#email {
+    background: #f8f8f8;
+    border: none;
+    width: 223px;
+    height: 45px;
+    top: 1403px;
+    left: 130px;
+    border-radius: 5px;
+    opacity: 0px;
+    margin: 10px;
+}
+
+.subscriptionMessageMobile {
+    display: none;
+}
+
+.subscriptionMessage {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 21px;
+    text-align: left;
+    width: 478px;
+    height: 42px;
+    margin-top: 25px;
+}
+
+.subscribeButton {
+    width: 464px;
+    height: 57.08px;
+    top: 1546px;
+    left: 142px;
+    gap: 0px;
+    border-radius: 5px;
+    opacity: 0px;
+    background: #e21e26;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+    color: #ffffff;
+    border: none;
+    margin-top: 50px;
+}
+.mobileApp {  
+    background-color: #e21e26;
+    display: flex;
+    flex-direction: row;
+}
+
+.mobileAppImg {
+    padding: 40px;
+}
+
+.appContent
+{
+    top: 110.42px;
+    left: 927px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21.5px;
+    text-align: left;
+    color: white;
+    padding-left: 1px;
+    padding-top: 86px;
+}
+.appContentMobile {
+ display: none;
+}
+
+.phn{
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.getlinkButton {
+  padding: 16px 32px 16px 32px;
+  position: absolute;
+  gap: 10px;
+  border-radius: 8px;
+  width: 147px;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  margin-left: -218px;
+  margin-top: 73px;
+}
+
+.appStore {
+  padding-top: 90px;
+}
+
+.applicationImg {
+    display: flex;
+    flex-direction: row;  
+    gap: 5px; 
+    padding-top: 10px;
+}
+
+/* Mobile specific styles */
+.appContentMobile {
+  display: none;
+}
+
+.dwldMsg {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.getInOn {
+  margin-bottom: 10px;
+}
+
+
+
+/* Responsive */
+@media (max-width: 768px) {
+.subscription{
+  display: flex;
+  flex-direction: column;
+}
+  .subscriptionMessageMobile {
+    display: block;
+  }
+  .subscriptionMessage {
+    display: none;
+  }
+ 
+}

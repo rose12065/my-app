@@ -1,0 +1,141 @@
+.popularCar {
+  padding-top: 700px;
+  text-align: center;
+}
+
+.popularCar h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+.carTypes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.carTypeBox {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 50%;
+  margin-bottom: 30px;
+  padding: 20px;
+  text-align: left;
+  transition: transform 0.3s;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  overflow: hidden; /* Ensure content overflow is hidden */
+}
+
+.carTypeBox:hover {
+  transform: translateY(-10px);
+}
+
+.carTypeContent {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.carName {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #1A202C;
+  margin-bottom: 10px;
+}
+
+.carDescription {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.carSpecification {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.carSpecification p {
+  font-size: 0.9rem;
+  color: #333;
+  display: flex;
+  align-items: center;
+  margin: 5px 0;
+}
+
+.carSpecification p img {
+  margin-right: 8px;
+}
+
+.carContentBottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.carContentBottom p {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.bookNowButton {
+  background-color: #E21E26;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.bookNowButton:hover {
+  background-color: #b8565a;
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+  .carTypeBox {
+    width: 45%;
+  }
+}
+
+@media (max-width: 768px) {
+  .carTypeBox {
+    width: 50%;
+  }
+
+  .carContentBottom {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .carContentBottom p {
+    margin-bottom: 10px;
+  }
+
+  .carTypeBox {
+    overflow: hidden; 
+    height: 400px; 
+  }
+  
+  .carTypeBox:last-child .carTypeContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .carTypeBox:last-child .carContentBottom {
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

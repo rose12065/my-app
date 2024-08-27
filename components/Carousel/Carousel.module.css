@@ -1,0 +1,38 @@
+.carousel {
+    width: 100%; /* Set the width of the carousel */
+    overflow: hidden;
+    position: absolute;
+    padding-top:40 px ;
+    margin-top: 250px;
+    padding-left: 65px;
+    padding-right: 65px;
+  }
+  
+  .carouselInner {
+    display: flex;
+    flex-direction: column; /* Make the images appear as rows */
+    height: 600px; /* Adjust the height based on the number of items */
+    animation: slide 12s infinite; /* Infinite sliding animation */
+  }
+  
+  .carouselItem {
+    flex: 1;
+    min-height: 100%; /* Each item takes up 100% of the container height */
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .carouselItem img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  @keyframes slide {
+    0% { transform: translateX(0); }
+    33.33% { transform: translateX(0); }
+    38.33% { transform: translateX(-100%); }
+    71.66% { transform: translateX(-100%); }
+    76.66% { transform: translateX(-200%); }
+    100% { transform: translateX(0); }
+  }
+  
