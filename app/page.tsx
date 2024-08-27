@@ -13,7 +13,7 @@ import FAQAccordion from '@/components/questions/questions';
 export default function Home() {
   return (
     <main>
-      {/* <Banner/> */}
+      <Banner/>
       <Carousel  />
       <PopularCars/>
       <Subscription/>

@@ -3,7 +3,7 @@
     overflow: hidden;
     position: absolute;
     padding-top:40 px ;
-    margin-top: 250px;
+    margin-top: 300px;
     padding-left: 65px;
     padding-right: 65px;
   }
@@ -26,4 +26,9 @@
     height: auto;
     object-fit: cover;
   }
-  
+
+  @media (max-width: 768px) {
+      .carousel{
+        margin-top: 140px;
+      }
+  }

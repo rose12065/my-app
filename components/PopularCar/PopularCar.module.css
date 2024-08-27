@@ -1,5 +1,5 @@
 .popularCar {
-  padding-top: 700px;
+  padding-top: 800px;
   text-align: center;
 }
 
@@ -112,7 +112,9 @@
 }
 
 @media (max-width: 768px) {
-  
+  .popularCar{
+    padding-top: 350px;
+  }
   .carTypes {
     display: flex;
     flex-direction: column;
