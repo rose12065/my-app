@@ -1,57 +1,66 @@
-.frequentQuestions {
-  position: absolute;
-
-  padding-left: 65px;
+.frequentQuestions{
+    position: absolute;
+    
+    padding-left: 65px;
 }
-.frequentHead {
-  font-size: 34px;
+.frequentHead{
+    font-size: 34px;
   font-weight: 400;
   line-height: 51px;
   text-align: center;
 }
-.questionAccordion {
+.questionAccordion{
   width: 1059px;
   height: 55px;
   padding: 16px 0px 16px 0px;
   gap: 16px;
   padding-top: 32px;
   padding-left: 116px;
-}
-.accordion {
-  color: #444;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  text-align: left;
-  border: none;
-  outline: none;
-  transition: 0.4s;
-  display: flex;
-  justify-content: space-between; /* To align question and toggleIcon */
-}
-
-.toggleIcon {
-  font-size: 18px;
-  font-weight: bold;
-}
-
-.panel {
-  padding: 0 18px;
-  background-color: white;
-  display: none;
-  overflow: hidden;
-}
-
-.panel.active {
-  display: block;
-}
-
-/* .accordion:after {
-    content: "\002B";
-    font-weight: bold;
-    float: right;
-    margin-left: 5px;
+}.accordion {
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    display: flex;
+    justify-content: space-between; /* To align question and toggleIcon */
   }
-  .active:after {
-    content: "x";
-  } */
+  
+  .toggleIcon {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+  }
+  
+  .panel.active {
+    display: block;
+  }
+  
+  @media (max-width: 768px) {
+    
+      .frequentHead {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+      }
+      .questionAccordion {
+        
+      }
+      .accordion {
+        width: 366px;
+        height: 2px;
+      }
+      .panel {
+        width: 300px;
+      }
+  }
