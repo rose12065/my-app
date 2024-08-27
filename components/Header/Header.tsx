@@ -52,7 +52,7 @@ const Header = () => {
                 </nav>
             </div>
             <div className={styles.marquee}>
-                <p>Sunday pick Up/Drop-Off only at Dubai Silicon Oasis & Habtoor Grand sales Counters | All rates inclusive of VAT. T&C's apply | Follow us on social media for New offers</p>
+                <p>Sunday pick Up/Drop-Off only at Dubai Silicon Oasis & Habtoor Grand sales Counters | All rates inclusive of VAT. T&C&apos;s apply | Follow us on social media for New offers</p>
             </div>
         </div>
     );

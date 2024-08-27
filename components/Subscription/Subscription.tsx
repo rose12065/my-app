@@ -13,7 +13,7 @@ const Subscription = () => {
           Please select the ways you would like to hear from Diamondlease, and confirm that you’re happy for us to store your data in line with our Privacy Policy.
         </p>
         <p className={styles.subscriptionMessage}>
-          Don't miss out! Enter your email and your name, then hit subscribe to unlock a world of special offers and details.
+          Don&apos;t miss out! Enter your email and your name, then hit subscribe to unlock a world of special offers and details.
         </p>
         <button className={styles.subscribeButton}>Subscribe</button>
       </div>
